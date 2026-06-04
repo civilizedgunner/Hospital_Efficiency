@@ -27,7 +27,8 @@ The dataset contains 29,998 patient encounters and includes:
 •	Consultation Revenue
 •	Lab Cost
 Note: According to the dataset documentation, "Lab Cost" represents charges paid by patients rather than true operational costs. Therefore, this analysis focuses on revenue efficiency rather than profitability.
-Tools Used
+
+**Tools Used** 
 
 **Excel** 
 •	Data cleaning
