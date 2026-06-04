@@ -17,50 +17,50 @@ The dataset contains 29,998 patient encounters and includes:
 - Doctor Type
 
 ### Temporal Variables
-•	Date
-•	Entry Time
-•	Post Consultation Time
-•	Completion Time
+- Date
+- Entry Time
+- Post Consultation Time
+- Completion Time
 
 ### Revenue Variables
-•	Medication Revenue
-•	Consultation Revenue
-•	Lab Cost
+- Medication Revenue
+- Consultation Revenue
+- Lab Cost
 Note: According to the dataset documentation, "Lab Cost" represents charges paid by patients rather than true operational costs. Therefore, this analysis focuses on revenue efficiency rather than profitability.
 
 ## Tools Used 
 
 ### Excel
-•	Data cleaning
-•	Derived metrics
-•	Pivot table analysis
+- Data cleaning
+- Derived metrics
+- Pivot table analysis
 
 ### SQL (SQLite)
-•	Aggregation
-•	Grouping
-•	Efficiency calculations
+- Aggregation
+- Grouping
+- Efficiency calculations
 
 ### Power BI
-•	Interactive dashboard development
-•	Executive reporting
-•	Visual storytelling
+- Interactive dashboard development
+- Executive reporting
+- Visual storytelling
 
 ## Methodology 
 
 ### Data Preparation
-•	Removed duplicate records
-•	Validated chronological consistency of workflow timestamps
-•	Converted time variables for duration calculations
-•	Replaced structured missing medication revenue values with zero
-•	Treated sparse lab cost values as zero
-•	Created operational duration metrics
+- Removed duplicate records
+- Validated chronological consistency of workflow timestamps
+- Converted time variables for duration calculations
+- Replaced structured missing medication revenue values with zero
+- Treated sparse lab cost values as zero
+- Created operational duration metrics
 
  ### Derived Metrics
-•	Total Revenue
-•	Total Visit Duration
-•	Pre-Consultation Delay
-•	Consultation & Processing Time
-•	Revenue per Minute
+- Total Revenue
+- Total Visit Duration
+- Pre-Consultation Delay
+- Consultation & Processing Time
+- Revenue per Minute
 
 **Revenue per Minute** was used as the primary efficiency metric:
 Revenue per Minute = Total Revenue / Total Visit Duration
@@ -70,21 +70,21 @@ Revenue per Minute = Total Revenue / Total Visit Duration
 ### Financial Class
 
 #### Private Patients 
-•	Lowest revenue per minute
-•	Least efficient financial class
-•	Driven primarily by absence of medication revenue
+- Lowest revenue per minute
+- Least efficient financial class
+- Driven primarily by absence of medication revenue
 
 #### Medicare
-•	Highest revenue per minute
-•	Most efficient financial class
-•	Achieved highest efficiency despite longest average visit duration due to significantly higher medication revenue
+- Highest revenue per minute
+- Most efficient financial class
+- Achieved highest efficiency despite longest average visit duration due to significantly higher medication revenue
 
 ### Doctor Type
 
 #### Anchor Doctors
-•	Lowest revenue per minute
-•	Least efficient doctor group
-•	Inefficiency driven primarily by prolonged pre-consultation delays
+- Lowest revenue per minute
+- Least efficient doctor group
+- Inefficiency driven primarily by prolonged pre-consultation delays
 
 ## Recommendations
 
@@ -115,9 +115,9 @@ Only outpatient encounters were included.
 Findings should therefore be interpreted as illustrative of analytical methodology rather than definitive operational conclusions.
 
 ## Files Included
-•	Microsoft Excel file 
-•	SQL file
-•	Power BI dashboard
-•	Microsoft Word Report
+- Microsoft Excel file
+- SQL file
+- Power BI dashboard
+- Microsoft Word Report
 •	Images
 
