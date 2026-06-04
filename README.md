@@ -1,17 +1,17 @@
 # Hospital Operational Efficiency Analysis
 
-**Project Overview** 
+## Project Overview 
 This project analyzes hospital operational efficiency using patient workflow and revenue data. The objective was to identify the financial and operational factors driving efficiency differences across financial classes and doctor types.
 
 Efficiency was defined as Revenue per Minute, a metric that combines both revenue generation and patient visit duration to evaluate how effectively hospital resources are being utilized.
 
-**Business Objective** 
+## Business Objective 
 To identify the operational and financial factors influencing hospital efficiency by examining revenue generation and visit duration patterns across different financial classes and doctor types.
 
-**Dataset** 
+## Dataset 
 The dataset contains 29,998 patient encounters and includes:
 
-**Dimensions** 
+**Dimensions**
 •	Patient Type
 •	Financial Class
 •	Doctor Type
@@ -28,7 +28,7 @@ The dataset contains 29,998 patient encounters and includes:
 •	Lab Cost
 Note: According to the dataset documentation, "Lab Cost" represents charges paid by patients rather than true operational costs. Therefore, this analysis focuses on revenue efficiency rather than profitability.
 
-**Tools Used** 
+## Tools Used 
 
 **Excel** 
 •	Data cleaning
@@ -45,7 +45,7 @@ Note: According to the dataset documentation, "Lab Cost" represents charges paid
 •	Executive reporting
 •	Visual storytelling
 
-**Methodology** 
+## Methodology 
 
 **Data Preparation** 
 •	Removed duplicate records
@@ -65,7 +65,7 @@ Note: According to the dataset documentation, "Lab Cost" represents charges paid
 **Revenue per Minute** was used as the primary efficiency metric:
 Revenue per Minute = Total Revenue / Total Visit Duration
 
-**Key Findings** 
+## Key Findings 
 
 **Financial Class**
 
@@ -86,7 +86,7 @@ Revenue per Minute = Total Revenue / Total Visit Duration
 •	Least efficient doctor group
 •	Inefficiency driven primarily by prolonged pre-consultation delays
 
-**Recommendations**
+## Recommendations
 
 **Private Patients** 
 Investigate the absence of medication revenue to determine whether it reflects data quality issues or operational challenges related to medication purchases.
@@ -97,24 +97,24 @@ Study practices associated with Medicare patients to identify strategies that co
 **Anchor Doctors** 
 Review workflow processes contributing to prolonged pre-consultation delays and identify opportunities to improve patient throughput.
 
-**Dashboard Preview**
+## Dashboard Preview
 
-**Executive Summary** 
+### Executive Summary 
 ![Executive Summary](images/Executive_Summary.png)
 
-**Financial Class Analysis** 
+### Financial Class Analysis
 ![Financial Class Analysis](images/Financial_Class_Analysis.png)
 
-**Doctor Type Analysis** 
+### Doctor Type Analysis
 ![Doctor Type Analysis](images/Doctor_Type_Analysis.png)
 
-**Limitations** 
+## Limitations 
 Dataset appears partially synthetic and may not fully reflect real-world hospital operations.
 True operational cost data were unavailable.
 Only outpatient encounters were included.
 Findings should therefore be interpreted as illustrative of analytical methodology rather than definitive operational conclusions.
 
-**Files Included** 
+## Files Included
 •	Microsoft Excel file 
 •	SQL file
 •	Power BI dashboard
