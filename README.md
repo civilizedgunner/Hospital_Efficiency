@@ -11,18 +11,18 @@ To identify the operational and financial factors influencing hospital efficienc
 ## Dataset 
 The dataset contains 29,998 patient encounters and includes:
 
-**Dimensions**
+### Dimensions
 •	Patient Type
 •	Financial Class
 •	Doctor Type
 
-**Temporal Variables** 
+### Temporal Variables
 •	Date
 •	Entry Time
 •	Post Consultation Time
 •	Completion Time
 
-**Revenue Variables** 
+### Revenue Variables
 •	Medication Revenue
 •	Consultation Revenue
 •	Lab Cost
@@ -30,24 +30,24 @@ Note: According to the dataset documentation, "Lab Cost" represents charges paid
 
 ## Tools Used 
 
-**Excel** 
+### Excel
 •	Data cleaning
 •	Derived metrics
 •	Pivot table analysis
 
-**SQL (SQLite)** 
+### SQL (SQLite)
 •	Aggregation
 •	Grouping
 •	Efficiency calculations
 
-**Power BI** 
+### Power BI
 •	Interactive dashboard development
 •	Executive reporting
 •	Visual storytelling
 
 ## Methodology 
 
-**Data Preparation** 
+### Data Preparation
 •	Removed duplicate records
 •	Validated chronological consistency of workflow timestamps
 •	Converted time variables for duration calculations
@@ -55,7 +55,7 @@ Note: According to the dataset documentation, "Lab Cost" represents charges paid
 •	Treated sparse lab cost values as zero
 •	Created operational duration metrics
 
-**Derived Metrics** 
+ ### Derived Metrics
 •	Total Revenue
 •	Total Visit Duration
 •	Pre-Consultation Delay
@@ -67,34 +67,34 @@ Revenue per Minute = Total Revenue / Total Visit Duration
 
 ## Key Findings 
 
-**Financial Class**
+### Financial Class
 
-**Private Patients** 
+#### Private Patients 
 •	Lowest revenue per minute
 •	Least efficient financial class
 •	Driven primarily by absence of medication revenue
 
-**Medicare** 
+#### Medicare
 •	Highest revenue per minute
 •	Most efficient financial class
 •	Achieved highest efficiency despite longest average visit duration due to significantly higher medication revenue
 
-**Doctor Type** 
+### Doctor Type
 
-**Anchor Doctors** 
+#### Anchor Doctors
 •	Lowest revenue per minute
 •	Least efficient doctor group
 •	Inefficiency driven primarily by prolonged pre-consultation delays
 
 ## Recommendations
 
-**Private Patients** 
+### Private Patients
 Investigate the absence of medication revenue to determine whether it reflects data quality issues or operational challenges related to medication purchases.
 
-**Medicare** 
+### Medicare
 Study practices associated with Medicare patients to identify strategies that could improve efficiency in other financial classes.
 
-**Anchor Doctors** 
+### Anchor Doctors
 Review workflow processes contributing to prolonged pre-consultation delays and identify opportunities to improve patient throughput.
 
 ## Dashboard Preview
