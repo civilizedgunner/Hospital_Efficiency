@@ -12,9 +12,9 @@ To identify the operational and financial factors influencing hospital efficienc
 The dataset contains 29,998 patient encounters and includes:
 
 ### Dimensions
-•	Patient Type
-•	Financial Class
-•	Doctor Type
+- Patient Type
+- Financial Class
+- Doctor Type
 
 ### Temporal Variables
 •	Date
