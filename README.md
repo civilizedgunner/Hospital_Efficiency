@@ -100,13 +100,13 @@ Review workflow processes contributing to prolonged pre-consultation delays and 
 **Dashboard Preview**
 
 **Executive Summary** 
-(Insert executive_summary.png)
+![Executive Summary](images/Executive_Summary.png)
 
 **Financial Class Analysis** 
-(Insert financial_class_analysis.png)
+![Financial Class Analysis](images/Financial_Class_Analysis.png)
 
 **Doctor Type Analysis** 
-(Insert doctor_type_analysis.png)
+![Doctor Type Analysis](images/Doctor_Type_Analysis.png)
 
 **Limitations** 
 Dataset appears partially synthetic and may not fully reflect real-world hospital operations.
